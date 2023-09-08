@@ -3,7 +3,7 @@ import React from 'react'
 function TechCard({technology, percent}) {
   return (
 
-    <div className="card text-center">
+    <div className="card text-center hover:scale-125">
 
     <h1 className="mb-5">
     {technology}
