@@ -15,6 +15,7 @@ function TechCard({technology, percent}) {
   );
 }
 
+
 const App = () => {
   return (
 
