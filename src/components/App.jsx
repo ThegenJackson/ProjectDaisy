@@ -4,12 +4,15 @@ function TechCard({technology, percent}) {
   return (
 
     <div className="card text-center">
+
     <h1 className="mb-5">
     {technology}
     </h1>
+
     <div className="radial-progress" style={{"--value":percent}}>
     {percent}%
     </div>
+    
     </div>
 
   );
@@ -40,12 +43,12 @@ const App = () => {
         />
 
         <TechCard 
-        percent={80}
+        percent={20}
         technology={'Tailwind'}
         />
 
         <TechCard 
-        percent={20}
+        percent={80}
         technology={'DaisyUI'}
         />
 
@@ -54,7 +57,6 @@ const App = () => {
     </div>
 
     </div>
-
   )
 }
 
