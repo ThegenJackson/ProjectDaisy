@@ -15,8 +15,6 @@ function TechCard({technology, percent}) {
   );
 }
 
-let technology = 'react'
-
 const App = () => {
   return (
 
@@ -31,17 +29,22 @@ const App = () => {
         <div className="w-1/2 flex justify-around">
 
         <TechCard 
-        percent={5}
+        percent={95}
         technology={'React'}
         />
 
         <TechCard 
-        percent={15}
-        technology={'Tailwind'}
+        percent={5}
+        technology={'HTML5'}
         />
 
         <TechCard 
         percent={80}
+        technology={'Tailwind'}
+        />
+
+        <TechCard 
+        percent={20}
         technology={'DaisyUI'}
         />
 
