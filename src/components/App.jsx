@@ -18,7 +18,6 @@ function TechCard({technology, percent}) {
   );
 }
 
-
 const App = () => {
   return (
 
@@ -36,7 +35,7 @@ const App = () => {
         percent={95}
         technology={'React'}
         />
-
+        
         <TechCard 
         percent={5}
         technology={'HTML5'}
